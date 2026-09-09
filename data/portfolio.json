@@ -1,0 +1,81 @@
+{
+  "profile": {
+    "name": "김덕용",
+    "job": "기획, QA",
+    "introduction": "Unity와 C#을 활용해 게임 시스템과 UI를 구현합니다. 플레이 가능한 결과와 작업 문서로 개발 과정을 증명합니다.",
+    "email": "ejrdyd3899@gmail.com",
+    "github": "https://github.com/DeokDragon",
+    "profileImage": "images/profile.png",
+    "resume": "resume.html"
+  },
+  "skills": [
+    "기획 문서 작성",
+    "게임 기획"
+  ],
+  "projects": [
+    {
+      "id": "rovoid",
+      "title": "Rovoid",
+      "thumbnail": "images\\Rovoid.png",
+      "description": "오염된 행성을 정화하기 위한 디노의 모험.\n디노와 함께 오염 몬스터를 잡아 행성을 정화시키는 로그라이크 게임.",
+      "genre": "로그라이크, 액션, 캐주얼",
+      "platform": "WebGL",
+      "period": "2025.07 ~ 2025.12",
+      "team": {
+        "size": 7,
+        "myRole": "기획"
+      },
+      "contributions": [
+        "코어 루프 및 시스템 기획",
+        "몬스터 기획 및 패턴 설계",
+        "유물 컨셉, 수치 기획",
+        "플레이어 직업 및 스킬 기획"
+      ],
+      "problemSolving": [
+        {
+          "problem": "단순 유물과 티어만 존재하여 유물에 대한 특별성이 존재하지 않았습니다.",
+          "solution": "특정 유물의 성능이 일반 1티어 수준의 유물보다 낮은 수치로 조정하고 맵 내 랜덤으로 등장하는 정화기(오브젝트)를 배치하여 상위 유물로 교환할 수 있게 했습니다.",
+          "result": "플레이어는 이후 등장하는 정화기(오브젝트)를 통해 정화를 하는 하이리턴하이리크와 얻지 않고 안정적으로 플레이를 하는 유저로 나뉘게 되었습니다."
+        }
+      ],
+      "links": {
+        "play": "https://store.onstove.com/ko/games/103329",
+        "video": "",
+        "github": "https://github.com/coil38/2025-2_Space",
+        "document": "https://drive.google.com/drive/folders/1_VxqJG_7Z13Bt1xbU1RZ5RtpyKOMlAtl?usp=drive_link"
+      }
+    },
+    {
+      "id": "the-legacy-of-dungeon",
+      "title": "The Legacy of Dungeon",
+      "thumbnail": "images\\legacyOfDungeon.webp",
+      "description": "그리드 판에 다가오는 몬스터들을 카드를 통해 전부 물리치며, 진행하는 로그라이크 게임.",
+      "genre": "턴제 덱빌딩, 로그라이크",
+      "platform": "",
+      "period": "2026.01 ~ 2026.06",
+      "team": {
+        "size": 3,
+        "myRole": "메인 기획, 콘텐츠 기획, 시스템 기획"
+      },
+      "contributions": [
+        "카드 컨셉 및 수치 기획",
+        "몬스터 수치 및 패턴 기획",
+        "맵 랜덤 생성 규칙 및 데이터베이스 관리",
+        "구간 등장 확률 및 규칙 기획"
+      ],
+      "problemSolving": [
+        {
+          "problem": "완전한 랜덤 방식으로 7x7 전투 맵을 생성할 경우 장애물이 무작위로 흩어져 전술적 의미가 없는 맵이 생성되거나 플레이어와 보스의 이동 경로가 차단되는 문제가 발생했습니다.\n또한 단순 랜덤 배치만으로 매 판 새로운 맵을 제공하면서도 일정한 플레이 경험을 유지하기 어려웠습니다.",
+          "solution": "완전한 랜덤성을 배제하고 '청크 기반 구조 + 가중치 배치'의 Controlled Random 방식으로 맵 생성 로직을 설계했습니다.",
+          "result": "무작위성은 유지하면서도 맵의 구조적 완성도와 플레이 가능성을 보장하는 랜덤 맵 생성 시스템을 설계했습니다. 이를 통해 매 게임 다른 맵을 제공하면서도 장애물의 밀도, 안전 구역, 이동 경로 등 핵심 플레이 조건을 통제할 수 있도록 했습니다."
+        }
+      ],
+      "links": {
+        "play": "https://store.onstove.com/ko/games/104874",
+        "video": "https://www.youtube.com/watch?v=ciVHZtjWxMw&time_continue=1&source_ve_path=MjE0Mjgz&embeds_referring_euri=https%3A%2F%2Fstore.onstove.com%2F&embeds_referring_origin=https%3A%2F%2Fstore.onstove.com",
+        "github": "https://github.com/Taehyeon88/Graduation-project",
+        "document": "https://drive.google.com/drive/folders/154B8CXfhegyMfTWuWTuAdZtaYTVfkj2K?usp=drive_link"
+      }
+    }
+  ]
+}
